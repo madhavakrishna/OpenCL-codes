@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6950734,
+author={P. Tang},
+booktitle={IEEE SOUTHEASTCON 2014},
+title={Rapid development of parallel blocked all-pairs shortest paths code for multi-core computers},
+year={2014},
+volume={},
+number={},
+pages={1-7},
+keywords={C++ language;multiprocessing systems;parallel processing;multicore computers;parallel multicore code;gae.h;blocked Floyd-Warshall algorithm;Intel C++ Threading Building Blocks;TBB library;Libraries;Computers;Indexes;Vectors;Programming;Registers},
+doi={10.1109/SECON.2014.6950734},
+ISSN={1558-058X},
+month={March},}

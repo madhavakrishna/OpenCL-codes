@@ -1,0 +1,12 @@
+@INPROCEEDINGS{1231361,
+author={T. Naenna and R. A. Bress and M. J. Embrechts},
+booktitle={Proceedings of the 2003 IEEE International Workshop on Soft Computing in Industrial Applications, 2003. SMCia/03.},
+title={DNA classifications with self-organizing maps (SOMs)},
+year={2003},
+volume={},
+number={},
+pages={151-154},
+keywords={DNA;data visualisation;self-organising feature maps;pattern classification;sequences;genetics;molecular biophysics;biology computing;DNA classification;self-organizing map;SOM;exon classification;intron classification;windowed splice junction data;nucleotide;genetic material code;genetic section;DNA sequence;human DNA data;National Center for Bioinformatics Information;DNA dataset;sequence descriptor;gene-nongene transition;nongene-gene transition;transition category;two-base pair code;multidimensional sequence;sequence clustering;two-dimensional space;graphical display;data exploration;data classification;visual capability;graphical capability;topographic property;output map;dataset cluster;cluster labeling;output neuron;class frequency;class mapping;neuron class;DNA;Self organizing feature maps;Sequences;Neurons;Genetics;Biological materials;Humans;Bioinformatics;Multidimensional systems;Frequency},
+doi={10.1109/SMCIA.2003.1231361},
+ISSN={},
+month={June},}
