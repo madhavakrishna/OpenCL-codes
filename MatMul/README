@@ -1,0 +1,14 @@
+Each work item computes C[i], work-dimension 1D.
+	- glolbal work size: number of rows in matrix C
+	- local work size: (6 CU) We have divided the work among 10 work groups, i.e., each work group performs (NUMROWS/10) work-items.
+		for(j=0;j<Mdim;j++){	
+		  for(k=0;k<Pdim;k++){	
+		  	C[i][j] += A[i][k] * B[k][j]; 
+		}
+	- Every work-item reads B[*][j] column, now we let all works items together divide the task of reading column of K of matrix B in local memory.
+
+
+Total Global Variable accesses:
+  N X P X M for A
+  N X M for C
+  N X (M X P/LocalSz) for B
