@@ -2,12 +2,10 @@
 
 OUTNAME := $(notdir $(shell pwd))
 
-OPENCLLIB_PATH := /usrt/lib/x86_64-linux-gnu/
-
 CC ?= gcc
 CPPFLAGS += -Wall -O3
 
-LDFLAGS = -O3 -L$(OPENCLLIB_PATH)
+LDFLAGS = -O3 
 LDLIBS = -lOpenCL
 
 objects = matmul.o common.o
